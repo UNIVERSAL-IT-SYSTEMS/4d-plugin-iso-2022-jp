@@ -3,6 +3,8 @@
 ISO-2022-JP/UTF-16互換文字（6879）
 ---
 
+[http://www.unicode.org/](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT)
+
 | Char | UTF-16 | JIS | Shift_JIS |
 |:---:|:---:|:---:|:---:|
 | \\ |005C | 2140 | 815F |
@@ -6885,9 +6887,12 @@ ISO-2022-JP/UTF-16互換文字（6879）
 | ￣ |FFE3 | 2131 | 8150 |
 | ￥ |FFE5 | 216F | 818F |
 
-ISO-2022-JP/Windows-31J互換文字（448）
+ISO-2022-JP/Windows-31J互換文字: Unicodeなし（448）
 ---
-| Char | UTF-16 | JIS | Shift_JIS |
+
+(http://charset.7jp.net/jis0208.html)
+
+| Char | UTF-16 | JIS | Windows-31J |
 |:---:|:---:|:---:|:---:|
 | № |2116 | 2D62 | 8782 |
 | ℡ |2121 | 2D64 | 8784 |
@@ -7338,4 +7343,19 @@ ISO-2022-JP/Windows-31J互換文字（448）
 | ￢ |FFE2 | 7C7B | EEF9 |
 | ￤ |FFE4 | 7C7C | EEFA |
 
+ISO-2022-JP/Windows-31J互換文字: Unicodeあり（9）
+---
 
+http://charset.7jp.net/jis0208.html
+
+| Char | UTF-16 | JIS X 0208 (JIS) | Windows-31J (Shift_JIS) |
+|:---:|:---:|:---:|:---:|
+| ∪ |222A | 2D7C (2240) | 879C (81BE) |
+| ∩ |2229 | 2D7B (2241) | 879B (81BF) |
+| ∠ |2220 | 2D77 (225C) | 8797 (81DA) |
+| ⊥ |22A5 | 2D76 (225D) | 8796 (81DB) |
+| ≡ |2261 | 2D71 (2261) | 8791 (81DF) |
+| ≒ |2252 | 2D70 (2262) | 8790 (81E0) |
+| √ |221A | 2D75 (2265) | 8795 (81E3) |
+| ∵ |2235 | 2D7A (2268) | 879A (81E6) |
+| ∫ |222B | 2D72 (2269) | 8792 (81E7) |
