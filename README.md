@@ -1,6 +1,85 @@
 # 4d-plugin-iso-2022-jp
 
-ISO-2022-JP/UTF-16互換文字（6879）
+https://ja.wikipedia.org/wiki/JIS_X_0201
+
+JIS X 0201（OVERLINE:TILDE, YEN:ANTISLASH）:（2）
+---
+
+|Char|UTF-16|JIS|Shift_JIS|
+|---|---|---|---|
+| ‾ |203E | 007E | 007E |
+| ¥ |00A5 | 005C | 005C |
+
+JIS X 0201（半角カナ）:（62）
+---
+
+|Char|UTF-16|JIS|Shift_JIS|
+|---|---|---|---|
+| ｡ |FF61 | 00A1 | 00A1 |
+| ｢ |FF62 | 00A2 | 00A2 |
+| ｣ |FF63 | 00A3 | 00A3 |
+| ､ |FF64 | 00A4 | 00A4 |
+| ･ |FF65 | 00A5 | 00A5 |
+| ｦ |FF66 | 00A6 | 00A6 |
+| ｧ |FF67 | 00A7 | 00A7 |
+| ｨ |FF68 | 00A8 | 00A8 |
+| ｩ |FF69 | 00A9 | 00A9 |
+| ｪ |FF6A | 00AA | 00AA |
+| ｫ |FF6B | 00AB | 00AB |
+| ｬ |FF6C | 00AC | 00AC |
+| ｭ |FF6D | 00AD | 00AD |
+| ｮ |FF6E | 00AE | 00AE |
+| ｯ |FF6F | 00AF | 00AF |
+| ｰ |FF70 | 00B0 | 00B0 |
+| ｱ |FF71 | 00B1 | 00B1 |
+| ｲ |FF72 | 00B2 | 00B2 |
+| ｳ |FF73 | 00B3 | 00B3 |
+| ｴ |FF74 | 00B4 | 00B4 |
+| ｵ |FF75 | 00B5 | 00B5 |
+| ｶ |FF76 | 00B6 | 00B6 |
+| ｷ |FF77 | 00B7 | 00B7 |
+| ｸ |FF78 | 00B8 | 00B8 |
+| ｹ |FF79 | 00B9 | 00B9 |
+| ｺ |FF7A | 00BA | 00BA |
+| ｻ |FF7B | 00BB | 00BB |
+| ｼ |FF7C | 00BC | 00BC |
+| ｽ |FF7D | 00BD | 00BD |
+| ｾ |FF7E | 00BE | 00BE |
+| ｿ |FF7F | 00BF | 00BF |
+| ﾀ |FF80 | 00C0 | 00C0 |
+| ﾁ |FF81 | 00C1 | 00C1 |
+| ﾂ |FF82 | 00C2 | 00C2 |
+| ﾃ |FF83 | 00C3 | 00C3 |
+| ﾄ |FF84 | 00C4 | 00C4 |
+| ﾅ |FF85 | 00C5 | 00C5 |
+| ﾆ |FF86 | 00C6 | 00C6 |
+| ﾇ |FF87 | 00C7 | 00C7 |
+| ﾈ |FF88 | 00C8 | 00C8 |
+| ﾉ |FF89 | 00C9 | 00C9 |
+| ﾊ |FF8A | 00CA | 00CA |
+| ﾋ |FF8B | 00CB | 00CB |
+| ﾌ |FF8C | 00CC | 00CC |
+| ﾍ |FF8D | 00CD | 00CD |
+| ﾎ |FF8E | 00CE | 00CE |
+| ﾏ |FF8F | 00CF | 00CF |
+| ﾐ |FF90 | 00D0 | 00D0 |
+| ﾑ |FF91 | 00D1 | 00D1 |
+| ﾒ |FF92 | 00D2 | 00D2 |
+| ﾓ |FF93 | 00D3 | 00D3 |
+| ﾔ |FF94 | 00D4 | 00D4 |
+| ﾕ |FF95 | 00D5 | 00D5 |
+| ﾖ |FF96 | 00D6 | 00D6 |
+| ﾗ |FF97 | 00D7 | 00D7 |
+| ﾘ |FF98 | 00D8 | 00D8 |
+| ﾙ |FF99 | 00D9 | 00D9 |
+| ﾚ |FF9A | 00DA | 00DA |
+| ﾛ |FF9B | 00DB | 00DB |
+| ﾜ |FF9C | 00DC | 00DC |
+| ﾝ |FF9D | 00DD | 00DD |
+| ﾞ |FF9E | 00DE | 00DE |
+| ﾟ |FF9F | 00DF | 00DF |
+
+JIS X 0208（公式）:（6879）
 ---
 
 [http://www.unicode.org/](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT)
@@ -6887,7 +6966,7 @@ ISO-2022-JP/UTF-16互換文字（6879）
 | ￣ |FFE3 | 2131 | 8150 |
 | ￥ |FFE5 | 216F | 818F |
 
-ISO-2022-JP/Windows-31J互換文字: Unicodeなし（448）
+JIS X 0208（非公式）:（448）
 ---
 
 (http://charset.7jp.net/jis0208.html)
@@ -7343,7 +7422,7 @@ ISO-2022-JP/Windows-31J互換文字: Unicodeなし（448）
 | ￢ |FFE2 | 7C7B | EEF9 |
 | ￤ |FFE4 | 7C7C | EEFA |
 
-ISO-2022-JP/Windows-31J互換文字: Unicodeあり（9）
+参考: JIS X 0208（非公式・公式重複分）:（9）
 ---
 
 http://charset.7jp.net/jis0208.html
