@@ -1,6 +1,6 @@
 # 4d-plugin-iso-2022-jp
 
-(https://ja.wikipedia.org/wiki/JIS_X_0201)
+https://ja.wikipedia.org/wiki/JIS_X_0201
 
 JIS X 0201（OVERLINE:TILDE, YEN:ANTISLASH）: 2
 ---
