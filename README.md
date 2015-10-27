@@ -2,7 +2,7 @@
 
 ISO-2022-JP/UTF-16互換文字（6879）
 
-|Char|UTF-16|JIS|Shift_JIS|
+| Char | UTF-16 | JIS | Shift_JIS |
 |---|---|---|---|
 | \\ |005C | 2140 | 815F |
 | ¢ |00A2 | 2171 | 8191 |
