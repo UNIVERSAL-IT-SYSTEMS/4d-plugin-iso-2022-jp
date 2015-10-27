@@ -1,8 +1,8 @@
 # 4d-plugin-iso-2022-jp
 
-https://ja.wikipedia.org/wiki/JIS_X_0201
+(https://ja.wikipedia.org/wiki/JIS_X_0201)
 
-JIS X 0201（OVERLINE:TILDE, YEN:ANTISLASH）:（2）
+JIS X 0201（OVERLINE:TILDE, YEN:ANTISLASH）: 2
 ---
 
 |Char|UTF-16|JIS|Shift_JIS|
@@ -10,7 +10,7 @@ JIS X 0201（OVERLINE:TILDE, YEN:ANTISLASH）:（2）
 | ‾ |203E | 007E | 007E |
 | ¥ |00A5 | 005C | 005C |
 
-JIS X 0201（半角カナ）:（62）
+JIS X 0201（半角カナ）: 62
 ---
 
 |Char|UTF-16|JIS|Shift_JIS|
@@ -6966,7 +6966,7 @@ JIS X 0208（公式）:（6879）
 | ￣ |FFE3 | 2131 | 8150 |
 | ￥ |FFE5 | 216F | 818F |
 
-JIS X 0208（非公式）:（448）
+JIS X 0208（非公式）: 448
 ---
 
 (http://charset.7jp.net/jis0208.html)
@@ -7422,7 +7422,7 @@ JIS X 0208（非公式）:（448）
 | ￢ |FFE2 | 7C7B | EEF9 |
 | ￤ |FFE4 | 7C7C | EEFA |
 
-参考: JIS X 0208（非公式・公式重複分）:（9）
+参考: JIS X 0208（非公式・公式重複分）: 9
 ---
 
 http://charset.7jp.net/jis0208.html
